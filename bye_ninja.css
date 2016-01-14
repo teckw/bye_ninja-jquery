@@ -1,0 +1,29 @@
+html, body{
+	font-family: verdana;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	background-color: black;
+	color: Gray;
+	margin: 0px;
+	padding: 10px 0px 10px 5px;
+	font-weight: 300;
+	text-align: center;
+}
+img{
+	margin: 20px;
+	border: 1px Gray solid;
+	border-radius: 5px;
+	background-color:#EDEDED;
+}
+
+button{
+	background-color: black;
+	color: Gray;
+	border-radius: 5px;
+	border: none;
+	margin: 20px ;
+	font-size: 200%;
+	position: relative;
+}

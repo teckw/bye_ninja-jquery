@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bye Ninja!</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bye_ninja.css">
+	<script type="text/javascript" src= "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('h1').fadeIn(3000).removeClass('hidden');
+
+		$('img').click(function(){
+			$(this).fadeOut(2500);
+		});
+
+		$('#restore').click(function(){
+			$('img').fadeIn();
+		});
+
+	});
+	</script>
+</head>
+<body>
+<div id="wrapper">
+	<h1 hidden>Bye ninja!!</h1>
+	<div id="ninjas">
+		<img src="ninja.png" alt="ninja" height="445">
+		<img src="ninja.png" alt="ninja" height="445">
+		<img src="ninja.png" alt="ninja" height="445">
+		<img src="ninja.png" alt="ninja" height="445">
+		<img src="ninja.png" alt="ninja" height="445">
+		<img src="ninja.png" alt="ninja" height="445">
+		<img src="ninja.png" alt="ninja" height="445">
+		<img src="ninja.png" alt="ninja" height="445">
+	</div><!-- End of ninjas -->
+
+
+	<button id="restore">More Ninjas!!</button>
+
+</div><!-- End of wrapper -->
+</body>
+</html>
